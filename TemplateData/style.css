@@ -17,7 +17,8 @@ body {
 #unity-container {
     width: 100%;
     /*height: 100%;*/
-    height: 46vw;
+    height: auto;
+    aspect-ratio: 20/9;
     position: absolute;
     z-index: 1;
 }
@@ -33,7 +34,8 @@ body {
     left: 0;
     width: 100%;
     /*height: 100%;*/
-    height: 46vw;
+    height: auto;
+    aspect-ratio: 20/9;
     display: flex;
     justify-content: center;
     align-items: center;
